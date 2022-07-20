@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
-import { images } from "../data/image-data"
+import { images } from "./image-data"
 import { Icon } from '@iconify/react';
 
 const variants = {
