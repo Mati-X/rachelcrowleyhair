@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Noir-Medium;
+    src: url("./public/Fonts/Noir_medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Noir-Regular;
+    src: url("./public/Fonts/Noir_regular.otf") format("opentype");
+}
+
+html {
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    }
+
+html::-webkit-scrollbar {
+    display: none;
+    }
