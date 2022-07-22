@@ -2,6 +2,10 @@ import React from 'react'
 import {Main} from '../Components/index.jsx';
 import Line from '../Components/Line'
 function Home() {
+
+
+
+
   const routetitleStyle = {
     fontFamily: 'Noir-Medium',
     textAlign: 'center',
@@ -13,6 +17,7 @@ function Home() {
     alignItems: 'center',
     width: 'calc(100vw - 20rem)',
   }
+
 
   return (
     <div>

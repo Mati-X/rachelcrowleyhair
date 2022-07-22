@@ -1,6 +1,5 @@
 import React from 'react'
 import Line from './Line'
-import { useMediaQuery } from 'react-responsive'
 function AboutImgText(props) {
 
   const { type, title, image } = props;
@@ -51,9 +50,9 @@ function AboutImgText(props) {
 
   }) : ({
     position: 'relative',
-    left: '25%',
+    left: '400px',
     textAlign: 'right',
-    width: '30%',
+    width: '50%',
     fontFamily: 'Noir-Medium',
     fontSize: '60px',
     transform: 'rotateY(180deg)'})
@@ -72,7 +71,7 @@ function AboutImgText(props) {
     position: 'relative',
     left: '400px',
     textAlign: 'right',
-    width: '40%',
+    width: '50%',
     top: '150px',
     fontFamily: 'Noir-Regular',
     lineHeight: '50px',

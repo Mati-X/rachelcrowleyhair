@@ -3,6 +3,7 @@ import Line from './Line'
 import { Link } from "react-router-dom";
 
 export const Navbar = (props) =>  {
+  
     const NavbarStyle = {
         display: 'flex',
         justifyContent: 'space-around',
